@@ -2,7 +2,7 @@
 
 ## Description
 
-This application was created as part of a UT Full Stack Coding Bootcamp in-class mini-project. I modified starter code to create an html page displaying a short user biography. The generator collects user input and creates an html file including: name, location, bio, LinkedIn, GitHub, and custom file name. 
+This application was created as part of a UT Full Stack Coding Bootcamp in-class mini-project. The generator collects user input and creates an html file including: name, location, bio, LinkedIn, GitHub, and custom file name. 
 
 Watch a video demonstration of the basic functionality:
 [insert google drive link]
