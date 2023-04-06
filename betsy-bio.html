@@ -1,5 +1,4 @@
-function generateHTML(data) {
-    return `
+
     <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,17 +7,17 @@ function generateHTML(data) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>About ${data.firstName}</title>
+    <title>About Betsy</title>
 </head>
 <body>
 
     <section class="hero is-small is-primary">
         <div class="hero-body">
             <p class="title">
-                ${data.firstLastName}
+                Betsy
             </p>
             <p class="subtitle">
-                ${data.location}
+                Austin, TX
             </p>
         </div>
     </section>
@@ -26,7 +25,7 @@ function generateHTML(data) {
     <section class="section">
         <h1 class="title">About</h1>
         <h2 class="subtitle">
-            ${data.bio}
+            I like to skate and code.
         </h2>
     </section>
 
@@ -34,15 +33,12 @@ function generateHTML(data) {
         <h1 class="title">Contact</h1>
         <h2 class="subtitle">
             <ul class="contact-area">
-                <button href="https://www.linkedin.com/in/${data.linkedin}" class="button is-primary contact-btn"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>&nbspLinkedIn</button>
-                <button href="https://github.com/${data.github}" class="button is-primary contact-btn"><i class="fa-brands fa-square-github" style="color: #ffffff;"></i>&nbspGitHub</button>
+                <button href="https://www.linkedin.com/in/elizabetholsavsky" class="button is-primary contact-btn"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>&nbspLinkedIn</button>
+                <button href="https://github.com/elizabetholsavsky" class="button is-primary contact-btn"><i class="fa-brands fa-square-github" style="color: #ffffff;"></i>&nbspGitHub</button>
             </ul>
         </h2>
     </section>
 
 </body>
 </html>
-    `;
-}
-
-module.exports = generateHTML;
+    
