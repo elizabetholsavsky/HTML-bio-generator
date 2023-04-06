@@ -1,29 +1,43 @@
-# Module 09 Mini-Project: Portfolio Generator
+# README Generator
 
-In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.
+## Description
 
-## Instructions
+This application was created as part of a UT Full Stack Coding Bootcamp in-class mini-project. I modified starter code to create an html page displaying a short user biography. The generator collects user input and creates an html file including: name, location, bio, LinkedIn, GitHub, and custom file name. 
 
-* Your application should prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of.
+Watch a video demonstration of the basic functionality:
+[insert google drive link]
 
-* An HTML document containing the information collected from the prompts should be constructed and written to the file system. Make sure to add some CSS styling to the document.
+[![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-* You’ll need the following tools and technologies to accomplish this:
+## Table of Contents
 
-  * `fs` for writing to the file system
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
 
-  * `inquirer` version 8.2.4 for collecting user input
+## Installation
 
-  * String template literals for generating a string version of the HTML document before it is written to the file system
+Check if you have Node.js installed by typing "node -v" in your command line. If node is not installed, visit the [Node.js website](https://nodejs.org/en) to install. Next, clone this project repository to your computer. Use the command "npm install" to install dependencies. 
 
-## 💡 Hints
+## Usage
 
-It might be a good idea to start building out the HTML skeleton in a real HTML file. Once you're happy with the HTML file's appearance in the browser, you can copy and paste its contents into a string template literal. Then you can write a function to insert the user input into the appropriate places in the HTML string before writing it to the file system.
+Change directories to your new project folder in the terminal. Invoke the application by typing "node index.js" or by typing the script "npm start" in the terminal's command line. Refer back to the video posted in the description as needed.
 
-## 🏆 Bonus
+## License
 
-* Instead of using callback functions, what are some other tools in JavaScript we can use to handle asynchronous functionality?
+[MIT License](https://opensource.org/licenses/MIT)
 
----
+## Contributing
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+This was created as part of an in-class assignemnt for UT Full Stack Bootcamp. No starter code or coding support was provided. Styling and functionality was revised post class to extend styling and functionality. 
+
+## Questions
+
+Ask questions by contacting me at:
+
+Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
+
+Email elizabetholsavsky@gmail.com
