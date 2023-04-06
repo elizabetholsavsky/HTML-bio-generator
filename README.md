@@ -1,4 +1,4 @@
-# README Generator
+# HTML Bio Generator
 
 ## Description
 
