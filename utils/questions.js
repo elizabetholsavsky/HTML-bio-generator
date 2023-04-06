@@ -1,7 +1,7 @@
 const questions = [
     {
-        name: 'firstName',
-        message: 'What is your name?',
+        name: 'firstLastName',
+        message: 'What is your first and last name?',
         type: 'input',
         validate: (answer) => {
             if (answer === "") {
@@ -12,22 +12,22 @@ const questions = [
     },
     {
         name: 'location',
-        message: 'What is your location?',
+        message: 'What is your location? (City, State)',
         type: 'input',
     },
     {
         name: 'bio',
-        message: 'What is your bio?',
+        message: 'What is your biography?',
         type: 'input',
     },
     {
         name: 'linkedin',
-        message: 'What is your LinkedIn URL?',
+        message: 'What is your LinkedIn username?',
         type: 'input',
     },
     {
         name: 'github',
-        message: 'What is your Github URL?',
+        message: 'What is your Github username?',
         type: 'input',
     },
     {
