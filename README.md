@@ -34,7 +34,7 @@ Change directories to your new project folder in the terminal. Invoke the applic
 
 ## Contributing
 
-This was created as part of an in-class assignemnt for UT Full Stack Bootcamp. No starter code or coding support was provided. Styling and functionality was revised post class to extend styling and functionality. 
+This was created as part of an in-class assignemnt for UT Full Stack Bootcamp. No starter code or coding support was provided. Further revisions were made post class to extend styling and functionality. 
 
 ## Questions
 
