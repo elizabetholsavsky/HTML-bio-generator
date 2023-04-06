@@ -15,7 +15,7 @@ function generateHTML(data) {
     <section class="hero is-small is-primary">
         <div class="hero-body">
             <p class="title">
-                ${data.firstLastName}
+                ${data.firstName}
             </p>
             <p class="subtitle">
                 ${data.location}
@@ -34,8 +34,12 @@ function generateHTML(data) {
         <h1 class="title">Contact</h1>
         <h2 class="subtitle">
             <ul class="contact-area">
-                <button href="https://www.linkedin.com/in/${data.linkedin}" class="button is-primary contact-btn"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>&nbspLinkedIn</button>
-                <button href="https://github.com/${data.github}" class="button is-primary contact-btn"><i class="fa-brands fa-square-github" style="color: #ffffff;"></i>&nbspGitHub</button>
+                <a href="https://www.linkedin.com/in/${data.linkedin}" target="_blank"> 
+                    <button class="button is-primary contact-btn"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>&nbspLinkedIn</button>
+                </a>
+                <a href="https://github.com/${data.github}" target="_blank">
+                    <button class="button is-primary contact-btn"><i class="fa-brands fa-square-github" style="color: #ffffff;"></i>&nbspGitHub</button>
+                </a>
             </ul>
         </h2>
     </section>
