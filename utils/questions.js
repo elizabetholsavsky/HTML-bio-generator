@@ -22,12 +22,12 @@ const questions = [
     },
     {
         name: 'linkedin',
-        message: 'What is your LinkedIn URL?',
+        message: 'What is your LinkedIn username?',
         type: 'input',
     },
     {
         name: 'github',
-        message: 'What is your Github URL?',
+        message: 'What is your Github username?',
         type: 'input',
     },
     {

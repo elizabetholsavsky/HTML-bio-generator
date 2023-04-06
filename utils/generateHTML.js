@@ -1,25 +1,47 @@
 function generateHTML(data) {
     return `
     <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>${data.firstName}</h1>
-        <p>${data.location}</p>
-        <h2>Bio</h2>
-        <p>${data.bio}</p>
-        <h2>Contact</h2>
-        <ul>
-            <li>${data.linkedin}</li>
-            <li>${data.github}</li>
-        </ul>
-    </body>
-    </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>About ${data.firstName}</title>
+</head>
+<body>
+
+    <section class="hero is-small is-primary">
+        <div class="hero-body">
+            <p class="title">
+                ${data.firstName}
+            </p>
+            <p class="subtitle">
+                ${data.location}
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h1 class="title">About</h1>
+        <h2 class="subtitle">
+            ${data.bio}
+        </h2>
+    </section>
+
+    <section class="section">
+        <h1 class="title">Contact</h1>
+        <h2 class="subtitle">
+            <ul class="contact-area">
+                <button href="https://www.linkedin.com/in/${data.linkedin}" class="button is-primary contact-btn"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>&nbspLinkedIn</button>
+                <button href="https://github.com/${data.github}" class="button is-primary contact-btn"><i class="fa-brands fa-square-github" style="color: #ffffff;"></i>&nbspGitHub</button>
+            </ul>
+        </h2>
+    </section>
+
+</body>
+</html>
     `;
 }
 
