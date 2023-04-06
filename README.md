@@ -4,10 +4,12 @@
 
 This application was created as part of a UT Full Stack Coding Bootcamp in-class mini-project. The generator collects user input and creates an html file including: name, location, bio, LinkedIn, GitHub, and custom file name. 
 
-Watch a video demonstration of the basic functionality:
-[insert google drive link]
+Watch a [video](https://drive.google.com/file/d/1ITrHhHXv8t8kzo3kTu3duecpym0RYDZD/view?usp=sharing) demonstration of the basic functionality:
+
+https://user-images.githubusercontent.com/116515976/230478880-a79cd78d-e35c-4e02-8acf-e234187340e0.mov
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
+[![Bulma Badge](https://img.shields.io/badge/Bulma-00D1B2?logo=bulma&logoColor=fff&style=flat)](https://https://bulma.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
