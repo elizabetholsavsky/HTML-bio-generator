@@ -12,7 +12,7 @@ function generateHTML(data) {
 </head>
 <body>
 
-    <section class="hero is-small is-primary">
+    <section class="hero is-small is-dark">
         <div class="hero-body">
             <p class="title">
                 ${data.firstLastName}
@@ -35,10 +35,10 @@ function generateHTML(data) {
         <h2 class="subtitle">
             <ul class="contact-area">
                 <a href="https://www.linkedin.com/in/${data.linkedin}" target="_blank"> 
-                    <button class="button is-primary contact-btn"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>&nbspLinkedIn</button>
+                    <button class="button is-dark contact-btn"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>&nbspLinkedIn</button>
                 </a>
                 <a href="https://github.com/${data.github}" target="_blank">
-                    <button class="button is-primary contact-btn"><i class="fa-brands fa-square-github" style="color: #ffffff;"></i>&nbspGitHub</button>
+                    <button class="button is-dark contact-btn"><i class="fa-brands fa-square-github" style="color: #ffffff;"></i>&nbspGitHub</button>
                 </a>
             </ul>
         </h2>
