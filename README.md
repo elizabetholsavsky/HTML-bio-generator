@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/116515976/230478880-a79cd78d-e35c-4e02
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Questions](#questions)
+* [Contact](#contact)
 
 ## Installation
 
@@ -36,10 +36,9 @@ Change directories to your new project folder in the terminal. Invoke the applic
 
 This was created as part of an in-class assignemnt for UT Full Stack Bootcamp. No starter code or coding support was provided. Further revisions were made post class to extend styling and functionality. 
 
-## Questions
-
-Ask questions by contacting me at:
-
-Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
-
-Email elizabetholsavsky@gmail.com
+## Contact
+* Email elizabetholsavsky@gmail.com
+* LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
+* Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
+* Hashnode [https://elizabetholsavsky.hashnode.dev/](https://elizabetholsavsky.hashnode.dev/)
+* Twitter [@elizavsky](https://twitter.com/home)
